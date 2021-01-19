@@ -67,7 +67,7 @@ export const contactData = {
 };
 
 // FOOTER DATA
-export const footerData = {
+/* export const footerData = {
   networks: [
     {
       id: nanoid(),
@@ -85,7 +85,7 @@ export const footerData = {
       url: 'https://github.com/john-from-tamworth',
     },
   ],
-};
+}; */
 
 // Github start/fork buttons
 export const githubButtons = {
