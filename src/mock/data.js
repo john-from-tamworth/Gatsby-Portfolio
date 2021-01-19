@@ -9,9 +9,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hi, my name is ',
-  name: 'John Hands',
-  subtitle: 'A Web Developer based in the Midlands',
+  title: "Hi, I'm ",
+  name: 'John,',
+  subtitle: 'A Web Developer based in the Midlands.',
   cta: 'Learn More',
 };
 
@@ -20,9 +20,9 @@ export const aboutData = {
   img: 'cropped.png',
   paragraphOne: 'I have been an Insurance Fraud Investigator for 10 years.',
   paragraphTwo:
-    "I know what you're thinking...what has that got to do with Web Development.  The answer is...nothing.",
+    "I know what you're thinking...what has that got to do with Web Development?  The answer is....more than you think.  You need an eye for details, an open mind, be a keen problem solver and enjoy constantlty learning to be a good investigator.  The same applies to be a good developer.  ",
   paragraphThree:
-    'I have been in Web Dev since 2018 and I am confident in HTML, CSS, Javascript and JS framworks such as React',
+    'I have been in Web Dev since 2018 and I am confident in HTML, CSS, Javascript and JS framworks such as React.',
   resume: '',
 };
 
@@ -50,12 +50,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'youtube.png',
+    title: 'Video Browser',
+    info:
+      'This is a simple Youtube clone that takes in user search terms, runs it through the Youtube API, returns and displays the results on screen',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://master.dj459d2swuxx7.amplifyapp.com/',
+    repo: 'https://github.com/john-from-tamworth/video-browser',
   },
 ];
 
